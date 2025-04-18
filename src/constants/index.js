@@ -3,74 +3,71 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate UI/UX Developer with over 11 years of experience crafting intuitive and responsive user interfaces. I specialize in translating design concepts into seamless digital experiences using HTML, CSS, SASS, Bootstrap, and jQuery. My goal is to create clean, accessible, and impactful web applications that enhance user engagement and satisfaction.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+
+export const ABOUT_TEXT = `As a dedicated UI/UX Developer, I bring over a decade of hands-on experience designing and developing dynamic front-end solutions. From corporate portals to e-commerce platforms, I have worked across various domains using HTML, CSS, JavaScript, Bootstrap, jQuery, and Figma. I take pride in creating clean, user-centric designs and pixel-perfect interfaces. I'm a quick learner and team player who thrives in collaborative environments and believes in continuous improvement through new technologies and feedback.`;
+
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Apr 2024 - Present",
+    role: "UI/UX Developer",
+    company: "InExonsoft Technologies",
+    description: `Developing modern user interfaces for web applications with a focus on responsiveness, accessibility, and usability. Collaborating with cross-functional teams to deliver high-quality front-end code.`,
+    technologies: ["HTML", "CSS3", "SASS", "Bootstrap", "jQuery"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Jan 2020 - Mar 2024",
+    role: "UI/UX Developer",
+    company: "IJager Technologies",
+    description: `Worked on multiple client projects to create visually appealing interfaces, primarily focusing on clean code, pixel perfection, and responsive behavior. Integrated frontend components with backend APIs.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Aug 2013 - Jan 2020",
+    role: "Senior GUI Designer",
+    company: "Official Gates Technologies",
+    description: `Led front-end development for various websites and portals. Handled layout creation, cross-browser compatibility, and mobile responsiveness. Worked closely with designers and backend teams.`,
+    technologies: ["HTML", "CSS", "jQuery", "Photoshop", "Adobe XD"],
   },
 ];
+
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "DocDIT",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "An online healthcare platform providing 24/7 doctor consultations. Designed and implemented responsive UIs for web and Microsoft Store app.",
+    technologies: ["HTML", "CSS3", "SASS", "Bootstrap", "jQuery"],
   },
   {
-    title: "Task Management App",
+    title: "Rehmie",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A versatile e-commerce and recharge platform for bill payments, bookings, and mobile top-ups in Nigeria.",
+    technologies: ["HTML", "CSS", "SASS", "Bootstrap", "jQuery"],
   },
   {
-    title: "Portfolio Website",
+    title: "Nigeria Phonebook",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A comprehensive directory and search engine for people and businesses in Nigeria. Focused on UI/UX for large datasets.",
+    technologies: ["HTML", "CSS", "SASS", "Bootstrap", "jQuery"],
   },
   {
-    title: "Blogging Platform",
+    title: "2D Entertainment",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Official website of actor Suriya’s production house. Designed elegant and engaging layouts to highlight movies and updates.",
+    technologies: ["HTML", "CSS", "jQuery"],
   },
 ];
 
+
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+91 909557635 ",
+  address: "2-176, Manvilai Veedu, Sooriyacode (P.O), Kanyakumari (DT) - 629153, Tamil Nadu",
+  phoneNo: "+91 9095576235",
   email: "sajin.602@gmail.com",
 };
