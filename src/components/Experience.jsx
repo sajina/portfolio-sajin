@@ -1,6 +1,5 @@
 import { EXPERIENCES } from "../constants";
-import { motion } from 'motion/react';
-
+import { motion } from "motion/react"
 const Experience = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
